@@ -23,6 +23,10 @@ public class SingUpController {
 	
 	@RequestMapping(value="/signup", method=RequestMethod.POST)
 	public String saveUser(@ModelAttribute User u, Model model){
+		
+		
+		
+		
 	/*	model.addAttribute("fname", u.getFname());
 		model.addAttribute("lname", u.getLname());
 		model.addAttribute("username", u.getUsername());
